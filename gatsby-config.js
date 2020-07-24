@@ -79,8 +79,8 @@ module.exports = {
     );
   },
   siteMetadata: {
-    title: `Site Title`,
-    titleTemplate: `%s - Site Title`,
+    title: `Wil's Design Library`,
+    titleTemplate: `%s ・ Wil's Design Library`,
     description: `Site Title is...`,
     keywords: `Site,keywords`,
     author: `danielcourtness@gmail.com`,

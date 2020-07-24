@@ -13,7 +13,7 @@ import React from "react";
 import AppProvider from "~context/AppContext";
 import CursorProvider from "~context/CursorContext";
 import DocumentProvider from "~context/DocumentContext";
-import Header from "~components/Header";
+// import Header from "~components/Header";
 import Nav from "~components/Nav";
 
 import "~scss/index.scss";
@@ -26,7 +26,7 @@ export const wrapRootElement = ({ element }) => {
           <AppProvider>
             <Nav />
 
-            <Header />
+            {/* <Header /> */}
 
             {element}
           </AppProvider>

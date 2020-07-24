@@ -6,6 +6,7 @@ import { graphql } from "gatsby";
 import Footer from "~components/Footer";
 import Layout from "~components/Layout";
 import SEO from "~components/SEO";
+import DataFall from "~components/DataFall";
 
 const IndexPage = ({ data, location }) => {
   const { frontmatter } = data.markdownRemark;
@@ -19,9 +20,11 @@ const IndexPage = ({ data, location }) => {
         path={location.pathname}
       />
 
-      <Layout className="index-page w-full relative pt-16">
-        <section className="grid">
-          <h1 className="grid-end-12 my-8 f3">{frontmatter.title}</h1>
+      <Layout className="index-page relative">
+        <section className="w-full h-screen flex items-center justify-center">
+          <div className="w-48 h-48 absolute">
+            <DataFall />
+          </div>
         </section>
       </Layout>
 

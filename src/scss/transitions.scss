@@ -17,6 +17,10 @@ $fast-transition: $fast-transition-speed $ease-out-cubic;
 
 .transition-opacity {
   transition: $default-transition opacity;
+
+  &--fast {
+    transition: $fast-transition opacity;
+  }
 }
 
 .transition-transform {
